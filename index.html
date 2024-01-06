@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio</title>	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="resume.js"></script>
+	</head>	
+		<body>
+			<!----NavigationBar---->
+			<section id="nav-bar">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--nav bar is expanded on larger screens & bg is dark-->
+					<div class="container-fluid">
+					  <a class="navbar-brand" href="#">Portfolio</a>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+						  <li class="nav-item">
+							<a class="nav-link active" href="#about">About Me</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" href="#projects">My Projects</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" href="#certifications">Education</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" href="#contact">Get In Touch</a>
+						  </li>
+						</ul>
+					  </div>
+					</div>
+				  </nav>
+			</section>
+
+			<!-----About Me----->
+			<section id="about">					
+				<div class="container">
+					<img src="pfp.jpg" height="200px" width="150px">			
+				  <div class="row">
+				    <div class="col-md-6"> <!--takes 6 medium sized columns-->
+				      <h2>About Me</h2>
+				      <div class="about-content">
+				        <p style="display: inline-block;">I'm Akshata Athreya, a first-year Computer Science student at RV University in Bangalore. I'm passionate about programming and web development, with experience in HTML,CSS and JavaScript.
+			               I am a state level basketball player and enjoy dancing as well as baking in my spare time. I'm a quick learner and a team player who enjoys collaborating with others.</p>
+				      </div>
+				    </div>  
+				    <div class="col-md-6 socials">
+				      <ul class="social-links">
+				        <li>
+				          <a href="https://www.linkedin.com/in/akshata-athreya-592251293/">
+				            <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+				          </a>
+				        </li>
+				        <li>
+				          <a href="https://github.com/AkshataAthreya">
+				            <i class="fa fa-github"></i> Github
+				          </a>
+				        </li>
+				        <li>
+				          <a href="https://www.instagram.com">
+				            <i class="fa fa-instagram"></i> Instagram
+				          </a>
+				        </li>
+				      </ul>         
+				    </div>  
+				  </div>
+				</div>
+			</section>
+
+				<!-------projects------>
+				<section id="projects">
+					<div class="container">
+						<h1>My Projects</h1>
+						<div class="row projects">
+							<div class="col-md-4 text-center">
+								<div class="icon">
+									<i class="fa-phone"></i>	
+								</div>
+								<h3>DSCA Project on Lights</h3>
+								<p>The goal of this project is to design and implement a piezoelectric street lights system that harvests energy from the vibrations caused by pedestrian and vehicular movement on urban streets. By integrating piezoelectric materials into the infrastructure, we aim to generate clean and sustainable energy to power street lights, contributing to energy efficiency and environmental sustainability.
+								</p>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="icon">
+									<i class="fa-map-marker "></i>	
+								</div>
+								<h3>Community Service</h3>
+								<p>The primary objective of this community service project is to raise awareness about the importance of water conservation among local school students. By delivering engaging and informative sessions, we aim to instill a sense of responsibility and understanding of water-saving practices to contribute to a sustainable and water-conscious community.</p>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="icon">
+									<i class="fa-map-marker"></i>
+								</div>
+								<h3>IWD Mini Project</h3>
+								<p>The project introduces a user-friendly website designed for the seamless registration of
+									electronic goods, catering to the growing need for efficient documentation and tracking of such
+									products. The project introduces a user-friendly website designed for the seamless registration of
+									electronic goods, catering to the growing need for efficient documentation and tracking of such
+									products.<p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!--------education-------->
+				<section id="certifications">
+					<div class="container">
+						<h1>
+							Education
+						</h1>
+						<div class="row">
+							<div class="col-md-4 text-center">
+								<div class="profile">
+									<img src="ihs.jpeg" class="user">
+									<h3 style="text-align: center;">Innisfree House School</h3>
+									<p>From 1st to 5th grade I studied ICSE syllabus. From 6th to 10th grade I studied the IGCSE cirriculum. I passed by final board exam by scoring 91%. The IGCSE cirriculum gave me an opportunity to apply the fundamentals I learned in my core subjects.</p>							
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="profile">
+									<img src="rvpu.jpeg	" class="user">
+									<h3 style="text-align: center;">RV PU College</h3>
+									<p>I studied the state cirriculum in RV PU College. Physics, Chemistry, Math and Computer Science were my major subjects. I took up English as well as French as my languages.</p>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="profile">
+									<img src="rvu.png" class="user">
+									<h3 style="text-align: center;">RV University</h3>
+									<p>I am currently studying in RV University. My major degree is Computer Science.</p>				
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<!---------Get In Touch---------->	
+				<section id="contact">
+					<div class="container">
+						<h1>Get In Touch</h1>
+						<div class="row">
+							<div class="col-md-6">
+								<form class="contact-form" method="POST" onsubmit="return check(this)">
+									<div class="form-group">
+										<input type="text" placeholder="Your Name" name="name">
+									</div>
+									<div class="form-group">
+										<input type="number" placeholder="Phone No." name="phoneNo">
+									</div>
+									<div class="form-group">
+										<input type="email" placeholder="Email" name="emailID">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" rows="4" placeholder="Message"></textarea>
+									</div>
+									<button type="submit" class="btn btn-primary">Send Message</button>
+								</form>
+							</div>
+							<div class="col-md-6 contact-info">
+								<div class="follow">
+									<b>Address: </b><i class="fa fa-map-marker"></i> B 604, Shivaranjini Apts, BSK 3rd Stage, Bangalore-85 
+								</div>
+								<div class="follow">
+									<b>Phone No.: </b><i class="fa fa-phone"></i> 9513484450
+								</div>
+								<div class="follow">
+									<b>Email: </b><a href="mailto:aviralmehrotra9402@gmail.com"><i class="fa fa-envelope"></i></a> akshataathreya@gmail.com
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+		</body>
+</html>	

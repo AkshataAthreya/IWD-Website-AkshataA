@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0; /*space between content and border*/
+
+}
+
+/*-----navbar-----*/
+#nav-bar
+{
+    position: sticky; /*Relative and Absolute positioning*/
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand 
+{
+    height: 50px;
+    padding-left: 30px;
+    font-family: Pacifico;
+
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #2c65e0!important;
+
+}
+.navbar 
+{
+    background: rgb(181, 213, 231);
+}
+.navbar-toggler
+{
+    border:none!important;
+}
+.nav-link
+{
+    color: #555;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---------About---------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.socials
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-links i {
+  font-size: 25px;
+  margin-right: 0px;
+}
+
+/*-------projects------*/
+#projects
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://imgur.com/bWv75Hh.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#projects h1
+{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 300px;
+    margin: 20px auto 5px;
+}
+.projects
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projects p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.projects .col-md-4:hover{
+    background: #05359c;
+    cursor: pointer;    
+    transition: 0.7s;
+}
+
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+/*-------------Certifications--------*/
+#certifications
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#certifications .row 
+{
+    margin-top: 30px;
+}
+.course-skills
+{
+    list-style-type: none;
+    text-align: justify;
+    position: relative;
+    padding: 10px;
+}
+.course
+{   
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    margin: 0 auto; /* center within parent element */
+}
+.col-md-4
+{
+    margin: 40px auto;
+}
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+    text-align: justify;
+}
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img
+{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+.profile h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+.profile:hover
+{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*---------get in touch----------*/
+#contact
+{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+}
